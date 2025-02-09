@@ -63,7 +63,7 @@ The value associated with a word is stored in a designated field at the end of t
 
 This structure enables efficient key-value pair lookups while also supporting prefix-based queries.
 
-Example in Java:
+```Example in Java:
 
 import java.util.HashMap;
 
@@ -99,6 +99,7 @@ class TrieMap {
         return node.value;
     }
 }
+```
 
 # Real-World Applications of TRIE
 
